@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./wrk/wrk --latency -t12 -c1000 -d1m $1 > results/$2.txt
+./wrk/wrk --latency -t4 -c2000 -d2m $1 > results/$2.txt
