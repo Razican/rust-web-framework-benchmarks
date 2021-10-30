@@ -8,6 +8,6 @@ async fn main() {
     let hello = warp::path!("ping").map(|| "pong");
 
     warp::serve(hello)
-        .run(([127, 0, 0, 1], 8000))
+        .run(([0, 0, 0, 0], 8000))
         .await;
 }

@@ -5,6 +5,6 @@ async fn main() -> tide::Result<()> {
 
     let mut app = tide::new();
     app.at("/ping").get(|_| async { Ok("pong") });
-    app.listen("127.0.0.1:8000").await?;
+    app.listen("0.0.0.0:8000").await?;
     Ok(())
 }
