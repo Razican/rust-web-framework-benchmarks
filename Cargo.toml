@@ -1,5 +1,5 @@
 [workspace]
-members = ["actix", "rocket_04", "rocket_05", "tide", "warp"]
+members = ["actix_3", "actix_4", "rocket_04", "rocket_05", "tide", "warp"]
 
 # The release profile, used for `cargo build --release`.
 [profile.release]
