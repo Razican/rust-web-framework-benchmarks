@@ -8,11 +8,6 @@ lto = "fat"
 # Makes sure that all code is compiled together, for LTO
 codegen-units = 1
 
-# The test profile, used for `cargo test`.
-[profile.test]
-# Enables thin local LTO and some optimizations.
-opt-level = 1
-
 # The benchmark profile, used for `cargo bench`.
 [profile.bench]
 # Enables "fat" LTO, for faster benchmark builds

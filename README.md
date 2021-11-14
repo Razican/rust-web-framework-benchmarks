@@ -4,14 +4,15 @@ This repository contains easy programs that can be benchmarked using wrk. This g
 approximate idea on how they perform. It's still WIP.
 
 Features:
- - All frameworks share common dependencies (when possible), by using a Rust workspace
- - All frameworks produce an equivalent response
- - Static response (ping-pong) benchmarks
- - Benchmarks for Actix-web, Rocket 0.4, Rocket 0.5, Tide and Warp
+
+- All frameworks share common dependencies (when possible), by using a Rust workspace
+- All frameworks produce an equivalent response
+- Static response (ping-pong) benchmarks
+- Benchmarks for Actix-web v3, Actix-web v4, Rocket v0.4, Rocket v0.5, Tide and Warp
 
 Things that would be nice to have in the future:
- - Benchmarking even more frameworks and versions
- - Benchmarking more complex flows than a ping-pong
- - Benchmarking with templating engines
- - Benchmarking with database access
- 
+
+- Benchmarking even more frameworks and versions
+- Benchmarking more complex flows than a ping-pong
+- Benchmarking with templating engines
+- Benchmarking with database access
